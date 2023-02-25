@@ -1,0 +1,3 @@
+driver.navigate is used to use functions such as back/forward navigation, refresh etc..
+
+we cannot do that with the driver.get function 

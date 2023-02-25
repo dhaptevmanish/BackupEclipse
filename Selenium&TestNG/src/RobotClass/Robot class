@@ -1,0 +1,13 @@
+Can be used to simulate mouse and keyboard actions, Can be used to handle pop-ups and also helps us in uploading files
+
+Methods under robot class
+Keypress() -- eg: robot.keyPress(KeyEvent.VK_DOWN)
+KeyRelease() -- eg: robot.keyRelease(KeyEvent.VK_DOWN)
+MousePress()-- eg: robot.MousePress(InputEvent.VK_DOWN)
+MouseRelease()-- eg: robot.mouserelease(InputEvent.VK_DOWN)
+MouseMove() -- eg: robot.mousemove(point.getX(),point.gety())
+
+Limitations:
+1. Mouse or keyboard event will only work on the current instance of the window
+2. It is difficult to switch among different frames or window
+3. MOuseMOve() depends on the screen resolution.

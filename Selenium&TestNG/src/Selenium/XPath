@@ -1,0 +1,175 @@
+Starts with:
+Absolute XPath- Single Forward Slash. Select the element from the root <html> and cover the whole path to the element. It is also known as complete or Full Xpath.
+Relative XPath - Double Forward Slash. Expression can starts in the middle of the HTML DOM structure.
+
+Speed: 
+Absolute XPath- Faster. It identify the element very fast.	
+Relative XPath - Slower compare to absolute. it will take more time in identifying the element as we specify the partial path not (exact path).
+
+Failure Chances: 
+Absolute XPath -  More. It Changes Frequently, if there are any changes made in the path of the element then XPath gets failed.
+Relative XPath - Failure chance of well written relative path is very less
+
+Example: 
+Absolute XPath - /html/head/body/form/table/tbody/tr/th if any tag will be added before table the path will fail.
+Relative XPath - //table/tbody/tr/th Doesn't matter if anything added before table.
+
+X path can be bidirectional we can use it both for forward/backward navigation 
+
+Locating W.R.T To Elements and Attributes 
+===========================================================================
+1. Locating element with known attributes 
+Syntax: 
+//Element [@attribute = 'value']
+
+Eg: 
+//*[@id='Username']
+
+===========================================================================
+2. Locating element with known elements and attributes 
+Syntax: 
+//Elementname [@attribute = 'value']
+
+Eg: 
+//input[@id='Username']
+
+===========================================================================
+3. Locating elements with known visible text (exact match)
+used for locating elements containing exact text within an element. 
+Syntax: 
+
+//element [text()= 'exact text'] 
+eg: 
+
+//a[text()='OrangeHRM, Inc']
+
+NOTE: The text is case sensitive and must be exactly mentioned. 
+===========================================================================
+
+4. Locating element when part of visible text (partial text) is known 
+
+Syntax: 
+
+//element [contains(text())= 'part of text'] 
+eg: 
+
+//a[contains(text())='OrangeHRM, Inc']
+
+=============================================================================
+5. Locating element with known multiple attributes 
+
+To locate an exact element, we can use multiple attributes for selection 
+
+Syntax: 
+
+//*[attribute1 = 'value1'] [attribute2 = 'value2'].....[attributeN = 'valueN'] 
+eg: 
+
+//input[@class='button'] [@type='submit'][@value='LOGIN'] [@name='Submit']   
+
+=================================================================================
+6. Locating element when starting visible text is known
+(i.e) if we are trying to find the element that might change each and every time like hello@123, again upon refresh it will change to hello@321
+the number might change everytime but the work hello is constant all the time. So we can consider hello and use that 
+
+Syntax: 
+//elementname[starts-with(text(),'starting text')]
+
+=====================================================================================
+7. Locating element with Dynamic attribute values  
+Syntax:
+//elementname [contains(@attributename,'partof value')]
+//elementname [starts-with(@attributename,'fixedprefix of the value')]
+
+======================================================================================= 
+Locating elements relative to known element 
+This xpath starts from the known element to the element that needs to be founded
+
+8. Locating a parent element 
+The parent axes contains the parent of the context code 
+syntax:
+ //<knownxpath>/parent::elementName 
+eg:
+//*[@id='divusername']/parent::form 
+
+==========================================================================================
+9. Locating a child element 
+It contains the children of the context node. 
+Syntax: \
+//<knownxpath>/child::<elementname>
+//<knownxpath>/<elementname>
+eg: 
+//div[@id='divusername']/child::input
+//div[@id='divusername']/input
+
+============================================================================================
+10. Locating ancestors of a known element 
+ancestors contain the ancestors of the known element;consist ancestors of known element of a parent's parent and so on..
+
+Syntax: 
+//<xpath of known element>/ancestor::<elementname> or
+//<xpath of known element>/ancestor::*
+
+eg: 
+//input [@id'txtusername']/ancestor::form (or)
+//input [@id'txtusername']/ancestor::*
+
+==============================================================================================
+11. Locating following elements 
+keyword used = following::
+ 
+Syntax: 
+//<element>/following::<elementname> 
+
+eg: 
+//input[@id='textusername']/following::input
+
+if there are more than one elements in that we can use it using the number 
+eg: 
+//input[@id='textusername']/following::input[2]
+
+===============================================================================================
+12. Locating preceding elements 
+for locating a element before a known path 
+
+keyword used = preceding::
+
+syntax: 
+//<element>/preceding::<elementname>
+
+eg: 
+//input[@id='textusername']/preceding::input
+
+if there are more than one elements in that we can use it using the number 
+eg: 
+//input[@id='textusername']/preceding::input[2]
+
+=================================================================================================
+13. Locating following sibling 
+
+for locating a element that comes after a known element within the same HTML directory
+
+Syntax: 
+//<element>/following-sibling::<elementname> 
+
+eg: 
+//input[@id='textusername']/following-sibling::span
+
+
+=================================================================================================
+14. Locating preceding sibling 
+for locating a element that comes before a known element within the same HTML directory
+
+Syntax: 
+//<element>/preceding-sibling::<elementname> 
+
+eg: 
+//input[@id='textusername']/preceding-sibling::span
+
+
+==================================================================================================
+ 
+
+
+
+

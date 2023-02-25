@@ -1,0 +1,18 @@
+Javascript executor is an interface that is used in places where the normal webdriver interface cannot be used
+We r using this because in some case java doesnt have the access to the DOM structure but javascript has the access
+
+JavaScriptExecutor is an Interface that helps to execute JavaScript through Selenium Webdriver. 
+JavaScriptExecutor provides two methods “executescript” & “executeAsyncScript” to run javascript on the selected window or current page.
+
+Why do we need JavaScriptExecutor?
+*In Selenium Webdriver, locators like XPath, CSS, etc. are used to identify and perform operations on a web page.
+
+*In case, these locators do not work you can use JavaScriptExecutor. 
+You can use JavaScriptExecutor to perform an desired operation on a web element.
+
+*Selenium supports javaScriptExecutor. There is no need for an extra plugin or add-on. 
+You just need to import (org.openqa.selenium.JavascriptExecutor) in the script as to use JavaScriptExecutor.
+
+
+javascript executor information pages
+https://www.guru99.com/execute-javascript-selenium-webdriver.html 

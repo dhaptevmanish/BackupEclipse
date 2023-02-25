@@ -1,0 +1,4 @@
+Encapsulation is structure of creating a folder
+Actually data hiding happens in the encapsulation. 
+
+It can be accessed only by private access specifiers, by using getters and setters methods.

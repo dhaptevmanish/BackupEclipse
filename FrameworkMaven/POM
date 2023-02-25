@@ -1,0 +1,5 @@
+POM is a type of design pattern that is used as part of our framework 
+
+Its one of the way to create an object repository in selenium we are using since selenium doesnt have any inbuilt repository 
+
+

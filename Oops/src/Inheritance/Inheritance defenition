@@ -1,0 +1,6 @@
+Inheritance enables us to inherit/use the properties of the parent class to the child class using the "extends" keyword
+
+Types:
+Single inheritance 
+Multiple inheritance 
+Multilevel inheritance (It's not achievable through extends keyword using inheritance)

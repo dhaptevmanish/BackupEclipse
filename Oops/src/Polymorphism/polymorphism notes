@@ -1,0 +1,15 @@
+polymorphism 
+
+poly- many
+morphism - many ways using which it can be represented
+
+polymorphism - means one form can be completed in many ways.
+
+Polymorphism can be achecoved in 2 ways
+
+(1)Method overloading
+(2)Method overriding
+
+method overloading--> Method overloading have same method name but different types od argument/parameters will pass inside
+method overriding --> This type have two classes one is parent class and other one is child class here we use inheritence keyword to extend the class properties (Both parent and childclass have the same methodname/argument types)
+				  --> This same method name and same argument/parameter.

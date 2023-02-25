@@ -1,0 +1,41 @@
+For the o/p 
+ 		 *
+		 **
+		 ***
+		 
+for (row = 1; row <= no_rows; row++) {
+
+			for (coloumn = 1; coloumn <= row; coloumn++) {
+				System.out.print("*");
+
+			}
+
+			System.out.println();
+		}
+		
+For o/p 
+***
+**
+*
+
+for (row =no_rows-1; row >= 1; row--) {
+
+			for (coloumn = 1; coloumn <= row; coloumn++) {
+				System.out.print("*");
+
+			}
+
+			System.out.println();
+		}
+		
+For o/p 
+
+*
+**
+***
+***
+**
+*
+
+
+Combine the above 2 snippets 		

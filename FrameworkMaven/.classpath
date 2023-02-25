@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/selenium-api-4.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/selenium-chrome-driver-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/selenium-remote-driver-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/webdrivermanager-5.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/selenium-api-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/httpclient5-5.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/httpcore5-5.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/httpcore5-h2-5.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files/log4j-api-2.0-beta3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files poi ooxml/poi-ooxml-schemas-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files poi ooxml/xmlbeans-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files (3)/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files (3)/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files (3)/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files (3)/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files (3)/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files (3)/guava-21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files (3)/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files (3)/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files (3)/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files (3)/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files (3)/selenium-api-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files (3)/selenium-chrome-driver-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files (3)/selenium-remote-driver-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/poi-bin-5.2.2-20220312/poi-bin-5.2.2/poi-5.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/poi-bin-5.2.2-20220312/poi-bin-5.2.2/poi-examples-5.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/poi-bin-5.2.2-20220312/poi-bin-5.2.2/poi-excelant-5.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/poi-bin-5.2.2-20220312/poi-bin-5.2.2/poi-javadoc-5.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files/dec-0.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files/org.apache.commons.io.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files/htmlunit-2.63.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files/htmlunit-core-js-2.63.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files/htmlunit-cssparser-1.12.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jar_files/log4j-core.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -1,0 +1,24 @@
+Steps with JXl jars ---> can b used only until 97-2003 excel format
+
+1. File location -> 
+2. Get workbook 
+3. Get sheet 
+4. Get rows
+5. Get coloumns 
+6. Iterate (using for) and get the values 
+
+
+steps with POI Jar 
+Requirement : we need JXL or poi jars to read the data from the excel
+1. Read the file location 
+2. Create a object for workbook 
+3. Go to the sheet to be worked on 
+4. Row iteration and get row values
+5. Cell iteration and get cell values 
+
+HSSF --> a microsoft Excel 2003 file (.xls extension)
+XSSF --> Microsoft excel 2007 or later (.xlsx extension)
+XSSFWorkbook & HSSFWorkbook --> excel workbook
+HSSFSheet and XSSFSheet are classes that acts as a worksheet 
+Row defines a row 
+Cell defines and excel addressed in reference to a row

@@ -1,0 +1,19 @@
+Abstraction--> Hiding the implementation part (hiding a method)
+
+Abstract can be acheived in 2 ways --> Abstract and Interface.
+
+Abstract class (mention abstract before classname to ensure thats a abstract class)
+=======================================================================================
+1) It contains both abstract and non abstract methods
+2) we need to use abstract keyword to use abstract methods 
+3) we need to use extends keyword to use abstract methods
+4) we can create object for both abstract and interface.
+
+Interface (interface is not class)
+=======================================
+1) It only contains abstract methods 
+2) By default all are abstract here so we dont need to use keyword abstract 
+3) To implement interface we need ti use implements keyword & we can achieve multiple inheritance here.
+4) we need to use implements to connect 2 interfaces..
+5) we cannot create objects for interfaces...
+6) Multilevel inheritance can be achieved here using implements keyword.

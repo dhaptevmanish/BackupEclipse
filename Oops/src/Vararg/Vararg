@@ -1,0 +1,13 @@
+This will come in handy when we have to use the same method again and again for different number of arguments
+
+eg:
+
+sum (x,y) {
+}
+
+sum (x,y){
+}
+
+here in order to execute sum method, when we need an new argument to be added we have to again and again call that method
+
+if we use vararg method using ellipsis we need to call that method each and every time. 

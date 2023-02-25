@@ -1,0 +1,9 @@
+The super keyword refers to superclass (parent) objects.
+
+It is used to call superclass methods, and to access the superclass constructor.
+
+The most common use of the super keyword is to eliminate the confusion between superclasses and subclasses
+that have methods with the same name.
+
+super keyword represents the current instance of a parent class. 
+whereas this keyword is used to represent the current instance of class
